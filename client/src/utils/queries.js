@@ -6,37 +6,37 @@ export const QUERY_USER = gql`
       _id
       username
       email
-      comments {
+      thoughts {
         _id
-        messageText
+        thoughtText
         createdAt
       }
     }
   }
 `;
 
-export const QUERY_MESSAGES = gql`
-  query getMessages {
-    comments {
+export const QUERY_THOUGHTS = gql`
+  query getThoughts {
+    thoughts {
       _id
-      messageText
-      messageAuthor
+      thoughtText
+      thoughtAuthor
       createdAt
     }
   }
 `;
 
-export const QUERY_SINGLE_MESSAGE = gql`
-  query getSingleMessage($messageId: ID!) {
-    message(messageId: $messageId) {
+export const QUERY_SINGLE_THOUGHT = gql`
+  query getSingleThought($thoughtId: ID!) {
+    thought(thoughtId: $thoughtId) {
       _id
-      massageText
-      massageAuthor
+      thoughtText
+      thoughtAuthor
       createdAt
       comments {
         _id
-        massageText
-        massageAuthor
+        commentText
+        commentAuthor
         createdAt
       }
     }
@@ -49,10 +49,10 @@ export const QUERY_ME = gql`
       _id
       username
       email
-      comments {
+      thoughts {
         _id
-        messageText
-        messageAuthor
+        thoughtText
+        thoughtAuthor
         createdAt
       }
     }

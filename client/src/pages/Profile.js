@@ -2,8 +2,9 @@ import React from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
-import MessageList from '../components/MessageList';
-import MessageForm from '../components/MessageForm';
+import ThoughtForm from '../components/ThoughtForm';
+import ThoughtList from '../components/ThoughtList';
+
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
 
 import Auth from '../utils/auth';
@@ -42,8 +43,8 @@ const Profile = () => {
         </h2>
 
         <div className="col-12 col-md-10 mb-5">
-          <MessageList
-            comments={user.comments}
+          <ThoughtList
+            thoughts={user.thoughts}
             title={`${user.username}'s thoughts...`}
             showTitle={false}
             showUsername={false}
@@ -54,7 +55,7 @@ const Profile = () => {
             className="col-12 col-md-10 mb-3 p-3"
             style={{ border: '1px dotted #1a1a1a' }}
           >
-            <MessageForm />
+            <ThoughtForm />
           </div>
         )}
       </div>

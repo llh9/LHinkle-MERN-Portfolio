@@ -1,8 +1,8 @@
 import { gql } from '@apollo/client';
 
 export const LOGIN_USER = gql`
-  mutation login($username: String!, $password: String!) {
-    login(username: $username, password: $password) {
+  mutation login($email: String!, $password: String!) {
+    login(email: $email, password: $password) {
       token
       user {
         _id
@@ -13,7 +13,7 @@ export const LOGIN_USER = gql`
 `;
 
 export const ADD_USER = gql`
-  mutation addUser($username: String!, $email: String, $password: String!) {
+  mutation addUser($username: String!, $email: String!, $password: String!) {
     addUser(username: $username, email: $email, password: $password) {
       token
       user {
@@ -24,31 +24,31 @@ export const ADD_USER = gql`
   }
 `;
 
-export const ADD_Message = gql`
-  mutation addMessage($messageText: String!) {
-    addMessage(messageText: $messageText) {
+export const ADD_THOUGHT = gql`
+  mutation addThought($thoughtText: String!) {
+    addThought(thoughtText: $thoughtText) {
       _id
-      messageText
-      messageAuthor
+      thoughtText
+      thoughtAuthor
       createdAt
       comments {
         _id
-        messageText
+        commentText
       }
     }
   }
 `;
 
 export const ADD_COMMENT = gql`
-  mutation addComment($messageId: ID!, $messageText: String!) {
-    addComment(messageId: $messageId, messageText: $messageText) {
+  mutation addComment($thoughtId: ID!, $commentText: String!) {
+    addComment(thoughtId: $thoughtId, commentText: $commentText) {
       _id
-      messageText
-      messageAuthor
+      thoughtText
+      thoughtAuthor
       createdAt
       comments {
         _id
-        messageText
+        commentText
         createdAt
       }
     }

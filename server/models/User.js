@@ -10,7 +10,7 @@ const userSchema = new Schema({
   },
   email: {
     type: String,
-    required: false,
+    required: true,
     unique: true,
     match: [/.+@.+\..+/, 'Must match an email address!'],
   },
@@ -19,10 +19,10 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  comments: [
+  thoughts: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Message',
+      ref: 'Thought',
     },
   ],
 });
