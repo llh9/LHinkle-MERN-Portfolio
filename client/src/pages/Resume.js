@@ -11,12 +11,12 @@ const Resume = () => {
 
         <div className='w-100'>
           <h1 style={{color: "white", fontSize: "35px", textShadow: "2px 2px teal" }}>Resume</h1><hr></hr>
-          <h1 className='w-100 flex-row justify-center bg-dark 'style={{color: "white", fontSize: "20px", textShadow: "2px 2px teal" }}>Technical Proficiencies</h1>
+          <h1 className='w-100 flex-row justify-center bg-dark align-center'style={{color: "white", fontSize: "20px", textShadow: "2px 2px teal" }}>Technical Proficiencies</h1>
         </div>   
 
         <div className='skills flex-row w-100 justify-space-between p-1'>
 
-          <div className='gitBg'>
+          <div className='gitBg '>
             <div className='git' />
           </div>
 
