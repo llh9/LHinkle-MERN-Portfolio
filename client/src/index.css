@@ -584,6 +584,25 @@ header {
 .skills{
   background: radial-gradient(ellipse at top, transparent, black),
     radial-gradient(ellipse at bottom, white, transparent);
+    margin-bottom: 20px;
+}
+
+.atsResume {
+  display: flex;
+  background-image: url("./images/ATSResume.PNG");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+}
+.atsRsmeTgl{
+  display: inline;
+}
+.rsmBtns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
 }
 /* HEIGHT / WIDTH UTILS */
 .w-100 {
@@ -1096,7 +1115,7 @@ header {
 }
 
 .bg-dark {
-  background-color: #1a1a1a7a !important;
+  background-color: #1a1a1ace !important;
 }
 
 .bg-white {

@@ -22,6 +22,7 @@ const ContactMe = () => {
       ...formState,
       [name]: value,
     });
+    
   };
 
   const handleFormSubmit = async (event) => {
@@ -41,6 +42,9 @@ const ContactMe = () => {
 
   return (
     <main className="flex-row justify-center mb-4">
+      <div className='w-100'>
+        <h1 style={{color: "white", fontSize: "35px", textShadow: "2px 2px teal"}}>Contact Me</h1><hr></hr>
+      </div> 
       <div className="col-12 col-lg-10">
         <div className="card">
           <h4 className="card-header bg-dark text-light p-2">Choose the contact information you'd like to leave </h4>
