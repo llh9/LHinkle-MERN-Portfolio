@@ -27,7 +27,7 @@ const Footer = () => {
           >
             ❤️
           </span>{' '}
-          Please Give Fedback On You Experience
+          Please Give Fedback On Your Experience
         </h4>
       </div>
     </footer>

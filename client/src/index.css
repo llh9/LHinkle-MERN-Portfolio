@@ -444,7 +444,147 @@ a:hover {
 header {
   width: 100%;
 }
+.git {
+  display: flex;
+  background-image: url('./images/gnu_bash_official_logo_icon_169099.png');
+  background-size: cover;
+  width: 210px;
+  height: 110px;
+  margin: 0px;
+}
+.gitBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.github {
+  display: flex;
+  background-image: url('./images/github_original_wordmark_logo_icon_146506.png');
+  background-size:cover;
+  width: 110px;
+  height: 110px;
+  margin: 0px;
+}
+.githubBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.js {
+  display: flex;
+  background-image: url('./images/file_type_js_official_icon_130509.png');
+  /* background-size: cover; */
+  width: 100px;
+  height: 110px;
+  margin: 0px;
+}
+.jsBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.html {
+  display: flex;
+  background-image: url('./images/social_html5_html_31.png');
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  margin: 0px;
+}
+.htmlBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.css {
+  display: flex;
+  background-image: url('./images/css.png');
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  margin: 0px;
+}
+.cssBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.mySQL {
+  display: flex;
+  background-image: url('./images/mysql_original_wordmark_logo_icon_146417.png');
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  margin: 0px;
+}
+.mySQLBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.mongo {
+  display: flex;
+  background-image: url('./images/mongodb_original_wordmark_logo_icon_146425.png');
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  margin: 0px;
+}
+.mongoBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+.graphQL {
+  display: flex;
+  background-image: url('./images/graphql_logo_icon_171045.png');
+  background-size: cover;
+  width: 210px;
+  height: 110px;
+  margin: 0px;
+}
+.graphQLBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(white, transparent) ;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
 
+.skills{
+  background: radial-gradient(ellipse at top, transparent, black),
+    radial-gradient(ellipse at bottom, white, transparent);
+}
 /* HEIGHT / WIDTH UTILS */
 .w-100 {
   width: 100%;
@@ -956,7 +1096,7 @@ header {
 }
 
 .bg-dark {
-  background-color: #1a1a1a !important;
+  background-color: #1a1a1a7a !important;
 }
 
 .bg-white {
@@ -1351,6 +1491,11 @@ label form [type='radio'] {
   max-width: 100%;
 }
 
+.prtflo{
+  background: radial-gradient(teal, transparent);
+  margin-top: 30px;
+}
+
 .desc{
   display: flex;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -1363,10 +1508,11 @@ label form [type='radio'] {
   background-image: url(./images/Planmark.PNG);
   background-size: cover;
   opacity:0.6;
-  width: 50%;
-  margin-top: 50px;
+  width: 90%;
   border-radius: 7px;
-  border: #1bbc9c9c;
+  border-top: #1bbc9c9c;
+  border-right: #1bbc9c9c;
+  border-left: #1bbc9c9c;
   border-style: groove;
 }
 #Planmark:hover{
@@ -1389,7 +1535,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 50%;
+  width: 90%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;
@@ -1412,7 +1558,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 50%;
+  width: 90%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;
@@ -1435,7 +1581,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 50%;
+  width: 90%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;

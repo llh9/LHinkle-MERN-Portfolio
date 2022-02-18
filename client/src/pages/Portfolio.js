@@ -9,13 +9,13 @@ const Portfolio = () => {
   return (
     <main>
       <div className="flex-row ">
-        <div className="flex-column bg-secondary w-100">
+        <div className="flex-column bg-secondary w-100 ">
 
           <div className='w-100'>
             <h1 style={{color: "white", fontSize: "35px", textShadow: "2px 2px teal"}}>Portfolio</h1><hr></hr>
           </div>
 
-          <div className='flex-column justify-center align-center w-100'>
+          <div className='flex-column justify-center align-center w-100 prtflo'>
             <a href="https://llh9.github.io/Event-Search/" target="_blank" className="work" id="Planmark" onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
               <div>
@@ -93,7 +93,9 @@ const Portfolio = () => {
               </div>
             </a>
 
+          
           </div>
+          
         </div>
       </div>
     </main>

@@ -67,6 +67,7 @@ const ThoughtForm = () => {
       {Auth.loggedIn() ? (
         <>
           <p
+            style={{color: 'white'}}
             className={`m-0 ${
               characterCount === 280 || error ? 'text-danger' : ''
             }`}
