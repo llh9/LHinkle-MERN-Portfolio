@@ -6,6 +6,8 @@ const Footer = () => {
   const history = useHistory();
   return (
     <footer className="w-100 mt-auto bg-secondary p-4">
+      <hr style={{color: "white"}}></hr>
+
       <div className="container text-center mb-5">
         {location.pathname !== '/' && (
           <button

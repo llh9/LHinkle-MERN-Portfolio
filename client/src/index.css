@@ -465,7 +465,7 @@ header {
   min-width: 100vw;
 }
 
-/* MARGIN/PADDING UTILS */
+/* MARGIN/PADDING UTILS .work*/
 /* Margin - all sides */
 .m-0 {
   margin: 0 !important;
@@ -1342,6 +1342,81 @@ label form [type='radio'] {
 .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+#Planmark {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/Planmark.PNG);
+  background-size: cover;
+  opacity:0.6;
+  width: 90%;
+
+}
+#Planmark:hover {
+  opacity:1;
+  width: 100%;
+  height: 35vh;
+  box-shadow: 20px 16px teal;
+  border: #1bbc9b;
+  border-style: groove;
+  border-radius: 20px;
+}
+
+#PG{
+  background-image: url(./images/Password-Generator.PNG);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  opacity:0.6;
+  width: 90%;
+}
+#PG:hover {
+  opacity:1;
+  width: 100%;
+  height: 35vh;
+  box-shadow: 20px 16px teal;
+  border: #1bbc9b;
+  border-style: groove;
+  border-radius: 0.2;
+  border-radius: 20px;
+}
+
+#ppfp{
+  background-image: url(./images/Random-Qiuz.PNG);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  opacity:0.6;
+  width: 90%;
+}
+#ppfp:hover {
+  opacity:1;
+  width: 100%;
+  height: 35vh;
+  box-shadow: 20px 16px teal;
+  border: #1bbc9b;
+  border-style: groove;
+  border-radius: 0.2;
+  border-radius: 20px;
+}
+
+#tnj{
+  background-image: url(./images/Tech-News-Java-API.PNG);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  opacity:0.6;
+  width: 90%;
+}
+#tnj:hover {
+  opacity:1;
+  width: 100%;
+  height: 35vh;
+  box-shadow: 20px 16px teal;
+  border: #1bbc9c9c;
+  border-style: groove;
+  border-radius: 20px;
 }
 
 /* col-sm */

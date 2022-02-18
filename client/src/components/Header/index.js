@@ -11,11 +11,12 @@ const Header = () => {
   return (
     <header className="bg-primary text-light mb-4 py-3 flex-row align-center w-100">
       <div className="container flex-row justify-space-between-lg justify-center align-center w-100">
-        <div>
-          <Link className="text-light" to="/">
+        <div className='w-100'>
+          <Link className="text-light " to="/">
             <h1 className="m-0">MERN-Portfolio Landon Hinkle</h1>
           </Link>
           <p className="m-0">Please leave your thoughts on your experience. </p>
+          <hr></hr>
         </div>
         <div className='allnavs w-100'>
           <div className='navs'>
