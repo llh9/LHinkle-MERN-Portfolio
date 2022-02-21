@@ -59,9 +59,9 @@ const Resume = () => {
           </btn>
         </div>
         {isShown && (
-        <div className='atsResume'>
+        <a target={'_blank'} href={'https://docs.google.com/document/d/1fLn-E-rHDF7tc7OqtrlM5eErEBAuj8hOhoHhVZ2pKk4/edit?usp=sharing'}className='atsResume'>
           <h1></h1>
-        </div>
+        </a>
         )}
       </div>
     </main>
