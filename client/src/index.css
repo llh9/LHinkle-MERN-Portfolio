@@ -225,7 +225,7 @@ fieldset {
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
+ *    `fieldset` elements in all browsers. work
  */
 legend {
   box-sizing: border-box;
@@ -308,7 +308,7 @@ textarea {
 /* Interactive
    ========================================================================== */
 /*
- * Add the correct display in Edge, IE 10+, and Firefox.
+ * Add the correct display in Edge, IE 10+, and Firefox. work
  */
 details {
   display: block;
@@ -331,7 +331,7 @@ template {
 }
 
 /**bg
- * Add the correct display in IE 10.
+ * Add the correct display in IE 10. desc
  */
 [hidden] {
   display: none;
@@ -1510,16 +1510,40 @@ label form [type='radio'] {
   max-width: 100%;
 }
 
+/*================================================Porfolio Section=======================================================*/
 .prtflo{
-  background: radial-gradient(teal, transparent);
+  background: radial-gradient(rgba(0, 68, 68, 0.678), black);
   margin-top: 30px;
 }
 
 .desc{
   display: flex;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-  font-weight:bolder ;
-  margin-top: 75px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  /* margin-top: 75px; */
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  height: fit-content;
+}
+.descItm{
+  border-radius: 10px;
+  background: radial-gradient(rgba(0, 68, 68, 0.678), black);
+  border-style:ridge;
+  border-color: white;
+  box-shadow: 5px 10px rgba(1, 36, 36, 0.247);
+  margin-right: 5px;
+}
+.repoLink{
+  border-radius: 10px;
+  background: radial-gradient(black, rgba(0, 68, 68, 0.548));
+  border-style:ridge;
+  border-color: teal;
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 #Planmark {
   display: flex;
@@ -1527,7 +1551,7 @@ label form [type='radio'] {
   background-image: url(./images/Planmark.PNG);
   background-size: cover;
   opacity:0.6;
-  width: 90%;
+  width: 100%;
   border-radius: 7px;
   border-top: #1bbc9c9c;
   border-right: #1bbc9c9c;
@@ -1538,15 +1562,12 @@ label form [type='radio'] {
   display: block;
   opacity:1;
   width: 100%;
-  height: 35vh;
+  height: fit-content;
   box-shadow: 20px 16px teal;
   border: #1bbc9b;
   border-style: groove;
   border-radius: 20px;
 }
-
-
-
 
 #PG{
   background-image: url(./images/Password-Generator.PNG);
@@ -1554,7 +1575,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 90%;
+  width: 100%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;
@@ -1563,7 +1584,7 @@ label form [type='radio'] {
 #PG:hover {
   opacity:1;
   width: 100%;
-  height: 35vh;
+  height: fit-content;
   box-shadow: 20px 16px teal;
   border: #1bbc9b;
   border-style: groove;
@@ -1577,7 +1598,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 90%;
+  width: 100%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;
@@ -1586,7 +1607,7 @@ label form [type='radio'] {
 #ppfp:hover {
   opacity:1;
   width: 100%;
-  height: 35vh;
+  height: fit-content;
   box-shadow: 20px 16px teal;
   border: #1bbc9b;
   border-style: groove;
@@ -1600,7 +1621,7 @@ label form [type='radio'] {
   display: flex;
   flex-direction: column;
   opacity:0.6;
-  width: 90%;
+  width: 100%;
   border-radius: 7px;
   border: #1bbc9c9c;
   border-style: groove;
@@ -1608,7 +1629,7 @@ label form [type='radio'] {
 #tnj:hover {
   opacity:1;
   width: 100%;
-  height: 35vh;
+  height: fit-content;
   box-shadow: 20px 16px teal;
   border: #1bbc9c9c;
   border-style: groove;

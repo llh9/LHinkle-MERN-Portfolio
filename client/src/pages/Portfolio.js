@@ -19,17 +19,22 @@ const Portfolio = () => {
             <a href="https://llh9.github.io/Event-Search/" target="_blank" className="work" id="Planmark" onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
               <div>
-                <h3 style={{color: "white"}}>Planmark, Group Project</h3>
+                <h3 style={{color: "white", borderBlockEndStyle: "ridge", background: ""}}>Planmark, Group Project</h3>
                 {isShown && (
+
                 <div className='desc'>
-                  <p className="w-50" style={{ color: "black" }}>Created to provide users with an easy means to find available local activities where and whenever the user may be located.
+                  <a href="https://github.com/llh9/Event-Search" target="_blank" className='repoLink'>
+                    <div className='btn githubBg '>
+                      <div className='github' />
+                    </div>
+                  </a>
+                  <p className="w-50 descItm" style={{ color: "white" }} >Created to provide users with an easy means to find available local activities where and whenever the user may be located.
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>Technologies Utilized - Languages - HTML5, CSS3, JavaScript 
+                  <p className="w-50 descItm" style={{ color: "white" }} >Technologies Utilized - Languages - HTML5, CSS3, JavaScript 
                   </p>
-                  <p>API's - Open Weather Map API, Ticket Master API Link to Event Search Deployment - https://llh9.github.io/Event-Search/
+                  <p className="w-50 descItm" style={{ color: "white" }} >API's - Open Weather Map API, Ticket Master API Link to Event Search Deployment - https://llh9.github.io/Event-Search/
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>
-                    Topics - api-service, html, css, javascript
+                  <p className="w-50 descItm" style={{ color: "white" }} >Topics - api-service, html, css, javascript
                   </p>
                 </div>
                 )}
@@ -38,14 +43,19 @@ const Portfolio = () => {
             <a href="https://llh9.github.io/Password-Generator/" target="_blank" className="work" id="PG" onMouseEnter={() => setIsShown0(true)}
             onMouseLeave={() => setIsShown0(false)}>
               <div>
-                <h3 style={{color: "white"}}>Password Generator, Homework</h3>
+                <h3 style={{color: "white", borderBlockEndStyle: "ridge"}}>Password Generator, Homework</h3>
                 {isShown0 && (
                 <div className='desc'>
-                  <p className="w-50 mr-1" style={{ color: "black" }}>Password Generation app - offers a user-defined, criteria-based password.
+                  <a href="https://github.com/llh9/Password-Generator" target="_blank" className='repoLink'>
+                    <div className='btn githubBg '>
+                      <div className='github' />
+                    </div>
+                  </a>
+                  <p className="w-50 descItm mr-1" style={{ color: "white" }} >Password Generation app - offers a user-defined, criteria-based password.
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>Technologies Utilized - Languages - HTML5, CSS3, JavaScript, Node.js
+                  <p className="w-50 descItm" style={{ color: "white" }} >Technologies Utilized - Languages - HTML5, CSS3, JavaScript, Node.js
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>
+                  <p className="w-50 descItm" style={{ color: "white" }} >
                   Topics - password-generator security-tools
                   </p>
                 </div>
@@ -57,16 +67,22 @@ const Portfolio = () => {
             onMouseEnter={() => setIsShown1(true)}
             onMouseLeave={() => setIsShown1(false)}>
               <div>
-                <h3 style={{color: "white"}}>
+                <h3 style={{color: "white", borderBlockEndStyle: "ridge"}}>
                   Random Quiz, Homework
                 </h3>
                 {isShown1 && (
+
                 <div className='desc'>
-                  <p className="w-50" style={{ color: "black" }}>(Short Demo) Quiz app that utilizes local storage to keep a record of quiz takers and associated stats.
+                  <a href="https://github.com/llh9/Random-Quiz" target="_blank" className='repoLink'>
+                    <div className='btn githubBg '>
+                      <div className='github' />
+                    </div>
+                  </a>
+                  <p className=" w-50 descItm" style={{ color: "white" }} >(Short Demo) Quiz app that utilizes local storage to keep a record of quiz takers and associated stats.
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>Technologies Utilized - Languages - HTML5, CSS3, JavaScript, Node.js
+                  <p className=" w-50 descItm" style={{ color: "white" }} >Technologies Utilized - Languages - HTML5, CSS3, JavaScript, Node.js
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>
+                  <p className=" w-50 descItm" style={{ color: "white" }} >
                     Topics - html, css, javascript
                   </p>
                 </div>
@@ -76,16 +92,21 @@ const Portfolio = () => {
             <a href="https://cc-java-api-18.herokuapp.com/" target="_blank" className="work" id="tnj" onMouseEnter={() => setIsShown2(true)}
             onMouseLeave={() => setIsShown2(false)}>
               <div>
-                <h3 style={{color: "white"}}>
+                <h3 style={{color: "white", borderBlockEndStyle: "ridge"}}>
                   Tech-News-Java-Api
                 </h3>
                 {isShown2 && (
                 <div className='desc'>
-                  <p className="w-50" style={{ color: "black" }}>Java Spring Boot Project "Just Tech News App" (First Java application) cc-java-api-18.herokuapp.com/
+                  <a href="https://github.com/llh9/tech-news-java-api" target="_blank" className='repoLink'>
+                    <div className='btn githubBg '>
+                      <div className='github' />
+                    </div>
+                  </a>
+                  <p className="w-50 descItm" style={{ color: "white" }} >Java Spring Boot Project "Just Tech News App" (First Java application) cc-java-api-18.herokuapp.com/
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>Technologies Utilized - Languages - Java, HTML5, CSS3, JavaScript 
+                  <p className="w-50 descItm" style={{ color: "white" }} >Technologies Utilized - Languages - Java, HTML5, CSS3, JavaScript 
                   </p>
-                  <p className="w-50" style={{ color: "black" }}>
+                  <p className="w-50 descItm" style={{ color: "white" }} >
                   Topics - Java, Maven, Springboot, Springinitializr
                   </p>
                 </div>

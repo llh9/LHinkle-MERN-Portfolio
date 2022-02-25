@@ -53,7 +53,7 @@ const Resume = () => {
           <btn className='atsRsmeTgl btn btn-info m-2 justify-center align-center' onClick={() => setIsShown(true)}>
             <p>Click Here to View Resume</p>
           </btn>
-          <h1 className='w-50 flex-row justify-center bg-dark 'style={{color: "white", fontSize: "20px", textShadow: "2px 2px teal" }}>Cntrl+Scroll to adjust view</h1>
+          <h1 className='w-50 flex-row justify-center bg-dark 'style={{color: "white", fontSize: "20px", textShadow: "2px 2px teal" }}>Click on the Resume for detailed link</h1>
           <btn className='atsRsmeTgl btn btn-info m-2 justify-center align-center' onClick={() => setIsShown(false)}>
             <p>Click Here to hide Resume</p>
           </btn>
