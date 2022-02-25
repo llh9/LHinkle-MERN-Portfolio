@@ -102,7 +102,7 @@ const ThoughtForm = () => {
           </form>
         </>
       ) : (
-        <p>
+        <p className="bg-dark" style={{color: "teal"}}>
           You need to be logged in to share your thoughts. Please{' '}
           <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
         </p>

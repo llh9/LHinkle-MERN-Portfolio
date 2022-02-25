@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../utils/mutations';
-import { Checkbox } from '../components/ContactForm';
+import ThoughtHome from './ThoughtHome';
 
 import Auth from '../utils/auth';
 
@@ -53,57 +53,58 @@ const ContactMe = () => {
       <div className="col-12 col-lg-10">
         <div className="card">
           {/* <h4 className="card-header bg-dark text-light p-2">Choose the contact information you'd like to leave </h4> */}
-          <h4 className="card-header bg-dark text-light p-2">!The functionality for the form below is still in development! </h4>
+          {/* <h4 className="card-header bg-dark text-light p-2">!The functionality for the form below is still in development! </h4> */}
           <h4 className="card-header bg-dark text-light p-2">Feel free to sign up for a contact accout! Click Signup in the upper-right corner</h4>
+          <ThoughtHome />
 
-          <div className="card-body">
+          {/* <div className="card-body">
             {data ? (
               <p>
                 Success! You may now head{' '}
                 <Link to="/">back to the homepage.</Link>
               </p>
             ) : (
-              <form onSubmit={handleFormSubmit}>
-                <input
-                  className="form-input"
-                  placeholder="Your name"
-                  name="name"
-                  type="text"
-                  value={formState.name}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="Your email"
-                  name="email"
-                  type="text"
-                  value={formState.email}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="Your number"
-                  name="number"
-                  type="text"
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="Comments"
-                  name="comment"
-                  type="text"
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-                <button
-                  className="btn btn-block btn-primary"
-                  style={{ cursor: 'pointer' }}
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </form>
+              // <form onSubmit={handleFormSubmit}>
+              //   <input
+              //     className="form-input"
+              //     placeholder="Your name"
+              //     name="name"
+              //     type="text"
+              //     value={formState.name}
+              //     onChange={handleChange}
+              //   />
+              //   <input
+              //     className="form-input"
+              //     placeholder="Your email"
+              //     name="email"
+              //     type="text"
+              //     value={formState.email}
+              //     onChange={handleChange}
+              //   />
+              //   <input
+              //     className="form-input"
+              //     placeholder="Your number"
+              //     name="number"
+              //     type="text"
+              //     value={formState.password}
+              //     onChange={handleChange}
+              //   />
+              //   <input
+              //     className="form-input"
+              //     placeholder="Comments"
+              //     name="comment"
+              //     type="text"
+              //     value={formState.password}
+              //     onChange={handleChange}
+              //   />
+              //   <button
+              //     className="btn btn-block btn-primary"
+              //     style={{ cursor: 'pointer' }}
+              //     type="submit"
+              //   >
+              //     Submit
+              //   </button>
+              // </form>
             )}
 
             {error && (
@@ -111,7 +112,7 @@ const ContactMe = () => {
                 {error.message}
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
